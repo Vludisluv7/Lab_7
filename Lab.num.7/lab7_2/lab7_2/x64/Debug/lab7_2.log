@@ -1,0 +1,3 @@
+﻿  Calc.cpp
+C:\Users\Vladislav\source\repos\lab7_2\lab7_2\Calc.cpp(7,54): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  lab7_2.vcxproj -> C:\Users\Vladislav\source\repos\lab7_2\x64\Debug\lab7_2.exe
