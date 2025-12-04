@@ -13,7 +13,7 @@ float RegCikl(float a, float b, float h, float& yMax)
     yMax = -1E38;
     float x, y;
 
-    cout << endl << "Òàáëèöà çíà÷åíèé ôóíêöèè" << endl;
+    cout << endl << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸" << endl;
     cout << "\tx\ty" << endl;
 
     for (int i = 1; i <= n; i++)
@@ -24,4 +24,5 @@ float RegCikl(float a, float b, float h, float& yMax)
         cout << "\t" << x << "\t" << y << endl;
     }
     return yMax;
+
 }
