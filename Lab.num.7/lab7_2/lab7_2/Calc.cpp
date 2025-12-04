@@ -16,7 +16,7 @@ float RegCikl2(float a, float b, float h1, float c, float d, float h2, int& nPos
     nPos = 0;
     float x, y, z;
 
-    cout << endl << "Òàáëèöà çíà÷åíèé ôóíêöèè" << endl;
+    cout << endl << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸" << endl;
     cout << "\tx\ty\tz" << endl;
 
     for (int i = 1; i <= n1; i++)
@@ -34,4 +34,5 @@ float RegCikl2(float a, float b, float h1, float c, float d, float h2, int& nPos
         }
     }
     return sPos;
+
 }
